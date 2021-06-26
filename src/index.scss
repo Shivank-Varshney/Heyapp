@@ -24,6 +24,17 @@
         margin-left: 20px;
         font-size: 24px;
     }
+    &-brand{
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+        text-align: center;
+        width: 46%;
+    }
     .nav-item{
         .nav-link{
             color: #fff;
@@ -52,6 +63,10 @@
                 text-transform: uppercase;
                 font-family: "interstate", "sans-serif";
                 border-bottom: 2px solid transparent;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
                 &:hover{
                     transition-duration: 1s;
                     border-bottom: 2px solid rgba(0, 0, 0, 0.294);
@@ -68,7 +83,7 @@
 }
 
 #header{
-    background-image: url(./assets/header-banner.png);
+    background-image: url(./assets/header-banner.png);  // 1.png
     background-size: cover;
     background-position: left;
     .header-content{

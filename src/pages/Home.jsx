@@ -13,7 +13,9 @@ const Home = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="header-content">
-                        <h1 className="header-heading">A social media for all But, By women, of women</h1>
+                        <h1 className="header-heading">A social media for all</h1>
+                        <h1 className="header-heading">But, </h1>
+                        <h1 className="header-heading">By women, of women</h1>
                         <div className="header-btn">let meet them → </div>
                         </div>
                     </div>

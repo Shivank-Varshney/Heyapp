@@ -1,0 +1,6 @@
+1. logo center and big  -> done
+2. img big 1.png
+3. img 2,3,4 in access awareness
+4.  access awareness animation
+5. header item change - done
+6. 
